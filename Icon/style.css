@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?py4l0c');
+  src:  url('icomoon.eot?py4l0c#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?py4l0c') format('truetype'),
+    url('icomoon.woff?py4l0c') format('woff'),
+    url('icomoon.svg?py4l0c#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-plus:before {
+  content: "\e901";
+}
+.icon-notifications:before {
+  content: "\e905";
+}
+.icon-message:before {
+  content: "\e903";
+}
+.icon-message-circle:before {
+  content: "\e904";
+}
+.icon-search2:before {
+  content: "\f002";
+}
+.icon-help:before {
+  content: "\e909";
+}
+.icon-cheveron-down:before {
+  content: "\e902";
+}
+.icon-cheveron-up:before {
+  content: "\e908";
+}
+.icon-search1:before {
+  content: "\e906";
+}
+.icon-user:before {
+  content: "\e907";
+}
+.icon-plus1:before {
+  content: "\ea0a";
+}
+.icon-arrow-up-right2:before {
+  content: "\ea3b";
+}
+.icon-pinterest:before {
+  content: "\e900";
+  color: #bd081c;
+}
