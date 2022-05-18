@@ -6,10 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./StylesHoy.css">
     <link rel="stylesheet" href="./Icon/style.css">
 	<title>Pinterest Hoy</title>
@@ -17,27 +14,45 @@
 <body>
     <header class="navegadorHoy">
         <div class="logonav">
-            <a class="opc " href="#"> <span class="icon-pinterest"></span></a>
+            <a class="opc" href="#"> <span class="icon-pinterest"></span></a></li>
             <a class="opc" href="#">Inicio</a>
             <a class="opc" href="#">Hoy</a>
-            <a class="opc" href="#"> <span class="icon-search2 coloriconos"> Buscar </span></a>
-        </div>
+            <a class="opc" href="#">  <span class="icon-search2 coloriconos"></span> <input type="search" name="Busqueda" placeholder="Buscar" id="busqueda"> </a><
+		</div>
         <div class="iconosnav">
-            <a class="opc" href="#"><span class="icon-notifications coloriconos"></span></a>
-            <a class="opc" href="#"><span class="icon-message coloriconos"></span></a>
-            <a class="opc" href="#"><span class="icon-user coloriconos"></span></a>
-            <a class="opc" href="#"><span class="icon-cheveron-down coloriconos"></span></a>
+			<ul class="menuDesplegable">
+				<li><a class="opc" href="#"><span class="icon-notifications coloriconos"></span></a></li>
+				<li><a class="opc" href="#"><span class="icon-message coloriconos"></span></a></li>
+				<li><a class="opc" href="#"><span class="icon-user coloriconos"></span></a></li>
+				<ul class="menuvertical">
+					<a href="#"><span class="icon-cheveron-down coloriconos"></span></a>
+					<!-- <li> <a href="#">Tus cuentas</a> </li>
+					<li> <a href="#">Agregar cuenta</li>
+					<li> <a href="#">Convertir en cuenta para empresa</li>
+					<li> <a href="#">Más opciones</a> </li>
+					<li> <a href="#">Configuración</li>
+					<li> <a href="#">Mejora tu feed de inicio</li>
+					<li> <a href="#">Instalar la aplicación de Windows</li>
+					<li> <a href="#">Obtener ayuda</li>
+					<li> <a href="#">Ver condiciones y provacidad</li>
+					<li> <a href="#">Salir</li> -->
+				</ul>
+			</ul>
         </div>
         
     </header>
-    <!-- <div class="enpantalla">
-        <a class="opcpantalla" href="#"><span class="icon-plus colorIconmas"></span></a>
-        <a class="opcpantalla" href="#"><span class="icon-help colorIconmas"></span></a>
-    </div> -->
+    <div class="enpantalla">
+        <a class="opcmas opcpantalla" href="#"><span class="icon-plus colorIconmas"></span></a>
+        <a class="opchelp opcpantalla" href="#"><span class="icon-help colorIconmas"></span></a>
+    </div>
     
 	<div class="contenedor">
+		<div class="textimg">
+			<p class="textoimagen">19 de mayo de 2022</p>
+			<h1>Sigue inspirandote</h1>
+		</div>
 		<div class="contenedor-imagenes">
-
+			
 			<div class="imagenes" style="background-image: url(./img/imgHoy/anillospapel.jpg)">
 				<div class="textos">
 					<p>Luciendo un estilo propio</p>
@@ -60,6 +75,10 @@
 			</div>
 		</div>
 
+		<div class="textimg">
+			<p class="textoimagen">19 de mayo de 2022</p>
+			<h1>Sigue inspirandote</h1>
+		</div>
         <div class="contenedor-imagenes">
             <div class="imagenes" style="background-image: url(./img/imgHoy/cafecito.jpg)">
 				<div class="textos">
@@ -82,8 +101,13 @@
 				</div>
 			</div>
         </div>
-        <div class="contenedor-imagenes">
 
+		<div class="textimg">
+			<p class="textoimagen">19 de mayo de 2022</p>
+			<h1>Sigue inspirandote</h1>
+		</div>
+
+        <div class="contenedor-imagenes">
 			<div class="imagenes" style="background-image: url(./img/imgHoy/pastel.jpg)">
 				<div class="textos">
 					<p>Temporada de pasteles</p>
@@ -95,6 +119,13 @@
 				<div class="textos">
 					<p>Ingenio ecológico</p>
 					<h2>Ideas para transformar tu ropa</h2>
+				</div>
+			</div>
+
+			<div class="imagenes" style="background-image: url(./img/imgHoy/mesmens.jpg)">
+				<div class="textos">
+					<p>Organizando tu ciclo</p>
+					<h2>Calendario menstrual para inspirarte</h2>
 				</div>
 			</div>
 
