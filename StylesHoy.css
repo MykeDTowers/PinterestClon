@@ -22,7 +22,35 @@ body {
     grid-template-columns: 2fr 1fr;
     gap: 20px; */
 }
+/* .contenedor-imagenes div:hover {
+    opacity: 1;
+    visibility: visible;
+} */
 
+.navegadorHoy {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px
+}
+.navegadorHoy > .opc{
+    position: fixed;
+    
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.opc {
+    margin-right: 15px;
+    text-decoration: none;
+    width: 100%;  
+    color: black;
+    font-size: 25px;
+}
+.iconosnav {
+    text-align: end;
+}
 .contenedor-imagenes {
 
     display: grid;
@@ -67,11 +95,19 @@ body {
     padding: 10px;
     width: auto;
     height: 30px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     /* position: fixed;
     display: flex; */
     flex-direction: column;
+    text-decoration: none;
 }
-.opc {
+.enpantalla {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.opcpantalla {
+    margin: 10px 5px 10px 0px;
+    font-size: 30px;
     text-decoration: none;
 }
