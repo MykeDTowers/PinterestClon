@@ -52,6 +52,9 @@ body {
     list-style: none;
     display: flex;
     justify-content:flex-end ;
+    width: auto;
+    margin: auto;
+    /* width: 400px; */
 }
 /* .menuDesplegable > li > a {
     display: block;
@@ -162,12 +165,26 @@ body {
     border-radius: 20px;
     border: 2px solid rgb(214, 208, 208);
 }
-.textoimagen, h1 {
+.textoimagen, h1{
     color: black;
 }
 .textimg {
     margin: 30px;
-    width: 800px;
+    width: 100%;
     align-items: center;
+    text-align: center;
+}
+#botonhome {
+    border-radius: 30px;
+    width: 140px;
+    height: 30px;
+    font-size: 15px;
+    border: 2px solid rgb(214, 208, 208);
+    background-color: rgb(214, 208, 208);
+}
+.footer {
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
     text-align: center;
 }
