@@ -6,6 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pinterest Clon</title>
 </head>
+   <h1>pinterest</h1>
+    <div class="grid-container">
+        <img class="grid-item" src="./img/1.jpg" alt="">
+        <img class="grid-item" src="./img/2.jpg" alt="">
+        <img class="grid-item" src="./img/3.jpg" alt="">
+        <img class="grid-item" src="./img/4.jpg" alt="">
+        <img class="grid-item" src="./img/5.jpg" alt="">
+        <img class="grid-item" src="./img/6.jpg" alt="">
+        <img class="grid-item" src="./img/7.jpg" alt="">
+        <img class="grid-item" src="./img/8.jpg" alt="">
+        <img class="grid-item" src="./img/9.jpg" alt="">
+        <img class="grid-item" src="./img/10.jpg" alt="">
+        <img class="grid-item" src="./img/11.jpg" alt="">
+        <img class="grid-item" src="./img/12.jpg" alt="">
+        <img class="grid-item" src="./img/13.jpg" alt="">
+        <img class="grid-item" src="./img/14.jpg" alt="">
+        <img class="grid-item" src="./img/15.jpg" alt="">
+        <img class="grid-item" src="./img/16.jpg" alt="">
+        <img class="grid-item" src="./img/17.jpg" alt="">
+        <img class="grid-item" src="./img/18.jpg" alt="">
+        <img class="grid-item" src="./img/19.jpg" alt="">
+        <img class="grid-item" src="./img/20.jpg" alt="">
+        <img class="grid-item" src="./img/21.jpg" alt="">
+        <img class="grid-item" src="./img/22.jpg" alt="">
+        <img class="grid-item" src="./img/23.jpg" alt="">
+        <img class="grid-item" src="./img/24.jpg" alt="">
+        <img class="grid-item" src="./img/25.jpg" alt="">
+        <img class="grid-item" src="./img/26.jpg" alt="">
+        <img class="grid-item" src="./img/27.jpg" alt="">
+        <img class="grid-item" src="./img/28.jpg" alt="">
+        <img class="grid-item" src="./img/29.jpg" alt="">
+        <img class="grid-item" src="./img/30.jpg" alt="">
+        
+    </div>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+    <script>
+        var elem = document.querySelector(".grid-container");
+        imagesLoaded(elem,() =>{
+            var msnry = new Masonry(elem,{
+        itemselector: ".grid-item" , 
+        columnWidth: 200,
+        gutter: 5,
+        });
+        })
+       
+    </script>
 <body>
     
 </body>
