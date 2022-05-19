@@ -22,16 +22,13 @@ body {
     grid-template-columns: 2fr 1fr;
     gap: 20px; */
 }
-/* .contenedor-imagenes div:hover {
-    opacity: 1;
-} */
 
 .navegadorHoy {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
     /* margin: 10px; */
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
 }
 
 .opc {
@@ -40,21 +37,20 @@ body {
     margin: auto auto 30px auto;  
     margin-right: 15px;
     text-decoration: none;
-    /* width: 100%;   */
     color: black;
     font-size: 25px; 
 }
 
 .iconosnav {
-    text-align: end;
-}
-.menuDesplegable {
     list-style: none;
     display: flex;
-    justify-content:flex-end ;
+    justify-content: flex-end;
     width: auto;
     margin: auto;
-    /* width: 400px; */
+    width: 100%;
+}
+.menuDesplegable {
+
 }
 /* .menuDesplegable > li > a {
     display: block;
@@ -89,7 +85,6 @@ body {
      top: 0px;
      left:0px;
      right: 0px;
-     background-color: black;
 } */
 
 .contenedor-imagenes {
@@ -109,6 +104,12 @@ body {
 	position: relative;
 	background-size: cover; /* se preserva el tamaño dentro del div */
 	background-position: center center; /* Posicion de la imagen*/
+}
+.imagenes:hover {
+    opacity: 0.8;
+}
+.enpantalla:hover {
+    opacity: 0.6;
 }
 
 .imagenes .textos {
@@ -187,4 +188,12 @@ body {
     padding: 20px;
     margin: 20px;
     text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    header .navegadorHoy {
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    
 }
